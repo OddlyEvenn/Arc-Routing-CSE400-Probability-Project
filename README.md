@@ -50,10 +50,10 @@ Make sure you have Python installed. Then run any of the files:
 # Deterministic shortest path
 python SHORTEST_PATH_CODE.py
 
-i) Randomized shortest path
+# Randomized shortest path
 python RANDOMIZED_CODE.py
 
-ii) Randomized routing across multiple nodes
+# Randomized routing across multiple nodes
 python RANDOMIZED_CODE_WITH_MULTIPLE_NODES.py
 
 # You may need to install required packages using:
