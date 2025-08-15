@@ -1,4 +1,4 @@
-# 🧠 Probability Project: Randomized Arc Routing with Dijkstra's Algorithm
+# 🧠 Randomized Arc Routing with Dijkstra's Algorithm
 
 **Short Description:**  
 A probability-based solution to the Arc Routing Problem using Dijkstra’s Algorithm. Incorporates traffic simulation with Poisson distribution and randomization in path selection. Includes basic, randomized, and multi-node versions to show the impact of congestion on shortest paths.
@@ -63,10 +63,19 @@ jupyter notebook
 ```
 ### 3. Available Notebooks
 
-Deterministic shortest path → SHORTEST_PATH_CODE.ipynb
+Deterministic shortest path 
+```bash 
+SHORTEST_PATH_CODE.ipynb
+```
 
-Randomized shortest path → RANDOMIZED_CODE.ipynb
+Randomized shortest path   
+```bash 
+RANDOMIZED_CODE.ipynb
+```
 
-Randomized routing across multiple nodes → RANDOMIZED_CODE_WITH_MULTIPLE_NODES.ipynb
+Randomized routing across multiple nodes  
+```bash 
+RANDOMIZED_CODE_WITH_MULTIPLE_NODES.ipynb
+```
 
 Open the desired notebook in your browser and run all cells (Cell → Run All) to execute.
