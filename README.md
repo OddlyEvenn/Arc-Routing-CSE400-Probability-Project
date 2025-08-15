@@ -46,15 +46,27 @@ cd Arc-Routing-CSE400-Probability-Project
 ```
 
 2. **Run the Code**
-Make sure you have Python installed. Then run any of the files:
-# Deterministic shortest path
-python SHORTEST_PATH_CODE.py
 
-# Randomized shortest path
-python RANDOMIZED_CODE.py
+### 1. Requirements
+Make sure you have **Python** installed along with **Jupyter Notebook** or **JupyterLab**.  
+Install the required packages:
+```bash
+pip install networkx matplotlib numpy scipy jupyter
+```
 
-# Randomized routing across multiple nodes
-python RANDOMIZED_CODE_WITH_MULTIPLE_NODES.py
+### 2. Open the Notebooks
 
-# You may need to install required packages using:
-pip install networkx matplotlib numpy scipy
+This project uses Jupyter Notebook (.ipynb) files instead of standalone .py scripts.
+To open them, run:
+```bash
+jupyter notebook
+```
+### 3. Available Notebooks
+
+Deterministic shortest path → SHORTEST_PATH_CODE.ipynb
+
+Randomized shortest path → RANDOMIZED_CODE.ipynb
+
+Randomized routing across multiple nodes → RANDOMIZED_CODE_WITH_MULTIPLE_NODES.ipynb
+
+Open the desired notebook in your browser and run all cells (Cell → Run All) to execute.
